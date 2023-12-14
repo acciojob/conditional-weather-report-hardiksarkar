@@ -14,7 +14,7 @@ const Weather = ()=>{
 
     return(
         <div>
-            <p>temperature: {getTemperature(weatherInput.temperature)}</p>
+            <p>Temperature: {getTemperature(weatherInput.temperature)}</p>
             <p>conditions: {weatherInput.conditions}</p>
         </div>
     )
